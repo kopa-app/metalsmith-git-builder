@@ -26,8 +26,11 @@ describe('metalsmith-git-builder', function () {
           }
 
           var commit = stdout.trim();
+          var fixture = fs.readFileSync('./fixtures/src/index.html', 'utf8');
           expect(fs.existsSync('./build/' + commit)).to.be(true);
           expect(fs.existsSync('./build/current')).to.be(true);
+          expect(fs.readFileSync('./build/' + commit + '/index.html', 'utf8')).to.be(fixture);
+          expect(fs.readFileSync('./build/current/index.html', 'utf8')).to.be(fixture);
           done();
         });
       });
