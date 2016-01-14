@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/kopa-app/metalsmith-git-builder.svg)](https://travis-ci.org/kopa-app/metalsmith-git-builder)
+
 # Metalsmith  - Git-Builder
 
 Metalsmith plugin that builds into a directory named after current git sha and symlinks it into another directory.
