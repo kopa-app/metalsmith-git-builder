@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-git-builder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Metalsmith plugin that builds into a directory named after current git sha and symlinks it into another directory. ",
   "main": "index.js",
   "scripts": {
