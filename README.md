@@ -7,7 +7,7 @@ Metalsmith plugin that builds into a directory named after current git sha and s
 ## Installation
 
 ```bash
-npm install metalsmith-mithril --save
+npm install metalsmith-git-builder --save
 ```
 
 ## Usage
