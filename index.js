@@ -36,7 +36,7 @@ module.exports = function (options) {
 
   builder.make = function () {
     var currentDir = path.join(originalDestination, options.directory);
-    fs.symlinkSync(destination, currentDir);
+    fs.symlinkSync(commit, currentDir);
   };
 
   return builder;
